@@ -16,7 +16,7 @@ let arraybotones;
 //console.log(botonMiLista)
 boton.forEach(numero => {
     numero.addEventListener('click', function (e) {
-        e.preventDefault()
+        //e.preventDefault()
         numero.classList.add('bg-danger');
     })
 })            
